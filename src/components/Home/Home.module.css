@@ -1,0 +1,29 @@
+.cardPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeLink {
+  align-self: flex-start;
+  text-decoration: none;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.addCardBtn {
+  outline: none;
+  width: 10rem;
+  height: 2.5rem;
+  border: none;
+  cursor: pointer;
+  background-color: #457b9d;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 0.3rem;
+}
+
+.addCardBtn:hover {
+  background-color: #2e546b;
+}

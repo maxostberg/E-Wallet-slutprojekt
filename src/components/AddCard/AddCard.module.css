@@ -1,0 +1,22 @@
+.addCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addCardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35rem;
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #353535;
+}
+
+.homeLink {
+  align-self: flex-start;
+  text-decoration: none;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}

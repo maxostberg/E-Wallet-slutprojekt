@@ -1,0 +1,91 @@
+/* Front */
+
+.creditCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 165px;
+  background-color: #1d3557;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.vendorContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #bcbebc;
+}
+
+.cardNumContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3px;
+  font-size: 1.3rem;
+  font-family: "Roboto Mono", monospace;
+  color: #daa520;
+}
+
+.cardInfoContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.cardHolderContainer {
+  font-size: 0.6rem;
+  color: #bcbebc;
+}
+
+.validContainer {
+  font-size: 0.6rem;
+  color: #bcbebc;
+}
+
+/* Back */
+.cardLine {
+  margin-bottom: 4rem;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+
+.creditCardBack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 160px;
+  background-color: #1d3557;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cvcContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 8px;
+  color: #bcbebc;
+}
+
+.deleteBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: white;
+  color: #343a40;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+.vendorIcon {
+  font-size: 1.8rem;
+}
